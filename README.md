@@ -1,29 +1,39 @@
-# assignement
+# Activity Tracker App 📝
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple Vue.js application that allows users to track their daily activities. Users can add, complete, and remove activities. The frontend is built with Vue 3 + Pinia. The backend is made using **Hono**, **Bun**, and **Drizzle ORM**, but at this stage, the frontend primarily uses `localStorage` for state persistence.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🌟 Features
 
-## Customize configuration
+- ✅ Add new activity items
+- 🔁 Toggle completion status of an activity
+- ❌ Remove an activity from the list
+- ♻️ Persist activities between page reloads using `localStorage`
+- 🚀 Backend setup with Hono and Bun (optional, for future expansion)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🛠 Tech Stack
 
-```sh
-npm install
-```
+### Frontend
+- [Vue 3](https://vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Vite](https://vitejs.dev/) (if used)
+- `localStorage` for persistence
 
-### Compile and Hot-Reload for Development
+### Backend (Optional at this stage)
+- [Bun](https://bun.sh/) – modern JavaScript runtime
+- [Hono](https://hono.dev/) – fast web framework for Bun
+- [Drizzle ORM](https://orm.drizzle.team/) – type-safe and SQL-focused ORM for SQLite
+- SQLite database
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## 📦 Project Setup
 
-```sh
-npm run build
-```
+### Clone the repo
+
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
