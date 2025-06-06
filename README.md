@@ -35,5 +35,4 @@ A simple Vue.js application that allows users to track their daily activities. U
 ### Clone the repo
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+
